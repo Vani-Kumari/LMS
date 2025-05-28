@@ -5,7 +5,7 @@ import SearchBar from './SearchBar'
 const Hero = () => {
   return (
     <div className='flex flex-col items-center justify-center w-full md:pt-36 pt-20 px-7 md:px-0 space-y-7 text-center bg-gradient-to-b from-cyan-100/70'>
-      <h1 className='text-3xl md:text-5xl relative font-bold text-gray-800 max-w-3xl mx-auto leading-tight'>
+      <h1 className='text-3xl md:text-4xl relative font-bold text-gray-800 max-w-3xl mx-auto leading-tight'>
         Fuel Your Future with Our <span className='text-blue-600'>Engaging & Immersive Learning Platform</span> <img src={assets.sketch} alt="sketch" className='md:block hidden absolute -bottom-7 right-0'/>
       </h1>
 
