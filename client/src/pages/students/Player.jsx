@@ -5,6 +5,7 @@ import { assets } from "../../assets/assets";
 import humanizeDuration from "humanize-duration";
 import YouTube from 'react-youtube'
 import Footer from "../../components/students/Footer";
+import Rating from "../../components/students/Rating";
 
 const Player = () => {
 
@@ -109,6 +110,7 @@ const Player = () => {
             <h1 className="text-xl font-bold">
               Rate This Course:
             </h1>
+            <Rating initialRating={0}/>
           </div>
 
 
